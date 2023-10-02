@@ -1,3 +1,26 @@
+:host {
+    position: relative;
+}
+
+.github-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid #cccccc;
+    padding: 4px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.github-link img {
+    max-width: 40px;
+}
+
 .upload-input {
     border: 1px solid #ccc;
     display: inline-block;
