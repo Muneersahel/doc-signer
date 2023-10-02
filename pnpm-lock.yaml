@@ -38,6 +38,9 @@ dependencies:
   express:
     specifier: ^4.18.2
     version: 4.18.2
+  ngx-extended-pdf-viewer:
+    specifier: ^18.0.2
+    version: 18.0.2(@angular/common@17.0.0-next.6)(@angular/core@17.0.0-next.6)
   rxjs:
     specifier: ~7.8.0
     version: 7.8.1
@@ -5143,6 +5146,10 @@ packages:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
     dev: true
 
+  /lodash.deburr@4.1.0:
+    resolution: {integrity: sha512-m/M1U1f3ddMCs6Hq2tAsYThTBDaAKFDX3dwDo97GEYzamXi9SqUpjWi/Rrj/gf3X2n8ktwgZrlP1z6E3v/IExQ==}
+    dev: false
+
   /lodash.isfinite@3.3.2:
     resolution: {integrity: sha512-7FGG40uhC8Mm633uKW1r58aElFlBlxCrg9JfSi3P6aYiWmfiWF0PgMd86ZUsxE5GwWPdHoS2+48bwTh2VPkIQA==}
     dev: true
@@ -5499,6 +5506,18 @@ packages:
   /neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
+
+  /ngx-extended-pdf-viewer@18.0.2(@angular/common@17.0.0-next.6)(@angular/core@17.0.0-next.6):
+    resolution: {integrity: sha512-CgRR39Fb0ZLsuzvNbiFPXuJL72bAqnvJyhytVQjsOo66ZQMnQA9dkU/YbkDKr25Btk/+PtAJmSkbBpPgyNxj1Q==}
+    peerDependencies:
+      '@angular/common': '>=12.0.0 <17.0.0'
+      '@angular/core': '>=12.0.0 <17.0.0'
+    dependencies:
+      '@angular/common': 17.0.0-next.6(@angular/core@17.0.0-next.6)(rxjs@7.8.1)
+      '@angular/core': 17.0.0-next.6(rxjs@7.8.1)(zone.js@0.14.0)
+      lodash.deburr: 4.1.0
+      tslib: 2.6.2
+    dev: false
 
   /nice-napi@1.0.2:
     resolution: {integrity: sha512-px/KnJAJZf5RuBGcfD+Sp2pAKq0ytz8j+1NehvgIGFkvtvFrDM3T8E4x/JJODXK9WZow8RRGrbA9QQ3hs+pDhA==}
